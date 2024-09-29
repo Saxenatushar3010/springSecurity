@@ -1,5 +1,5 @@
 # springSecurity
-Simple Spring Security project wth db-based authentication for user and method-level authorization
+Simple Spring Security project with db-based authentication for user and method-level authorization
 
 Authentication Flow Overview:
 1. Request Intercepted by Security Filter Chain: The request is captured by the appropriate filter in the Spring Security filter chain, such as UsernamePasswordAuthenticationFilter.
